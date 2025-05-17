@@ -1,9 +1,10 @@
 pub mod systems {
-    pub mod actions;
 }
 
-pub mod models;
+pub mod models{
+    pub mod inventory;
+}
 
 pub mod tests {
-    mod test_world;
+    
 }
